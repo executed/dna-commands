@@ -279,10 +279,12 @@ USB Values
 ### U=GETP 
 
 Get USB Power
+Not available on DNA60 & DNA60C because charging board and DNA board are separate.
 
 ### U=GETI 
 
-Get USB current
+Get USB current.
+Not available on DNA60 & DNA60C because charging board and DNA board are separate.
 
 ### U=GETV 
 
