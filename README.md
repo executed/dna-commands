@@ -336,4 +336,9 @@ Sample
  Timer
 
 ### X=RESET
- Reset
+ Soft Reboot.
+ Persists recent changes (e.g. power, puff count, profile, etc.) on disk and restarts device.
+ 
+ Normally changes are persisted only when device goes into deep sleep after certain time of inactivity.
+ Meaning if battery is pulled out right after change is made - changes are lost.
+ I would assume this serial cmd is not recommended to be executed frequently because of board's max disk writes OR it eats battery - otherwise developers would save things like puff count on disk after each puff.
